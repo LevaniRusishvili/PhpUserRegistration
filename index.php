@@ -2,7 +2,13 @@
 require_once 'includes/header.php';
 ?>
 
-<?php if(isset($_SESSION['sessionId'])): ?>
+<?php 
+require_once 'viewMovies.php'; 
+?>
+
+<?php 
+if(isset($_SESSION['sessionId'])): 
+?>
     You are logged in!
     <form action="includes/index-inc.php" method="post">
         <button type="submit" name="logout-submit">Log out</button>
@@ -12,6 +18,7 @@ require_once 'includes/header.php';
     You have been logged out successfully.
 <?php else: ?>
     Home
+
 <?php endif; ?>
 
 <?php

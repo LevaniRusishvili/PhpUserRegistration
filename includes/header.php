@@ -19,6 +19,7 @@ require_once 'register-inc.php';
             <li><a href = "index.php">Home</a></li>
             <li><a href = "login.php">Login</a></li>
             <li><a href = "register.php">Register</a></li>
+            <li><a href = "movie.php">Movies</a></li>
         </ul>
     </nav>
 </header>    
